@@ -1,0 +1,90 @@
+h1, h2, h3 {
+    color: #57a7dc;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    margin: 60px;
+    font-size: 30px;
+}
+
+.section-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.boxes {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+
+@media screen and (min-width: 480px) {
+    .boxes {width: 250px; float: center;}
+    .section-1 {margin-left: 216px;}
+  }
+
+  @media screen and (min-width: 1024px) {
+    .boxes {width: 350px; float: center;}
+    .section-1 {margin-left: 216px;}
+  }
+
+.boxes div {
+    padding: 20px;
+}
+
+
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 500px;
+    width: 400px;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 20px;
+    
+}
+
+input {
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    width: 350px;
+    margin: 10px 0 10px 0;
+}
+
+textarea {
+    display: flex;
+    justify-content: center;
+    height: 80px;
+    width: 350px;
+    margin-top: 10px;   
+}
+
+.contact-form button {
+    height: 12%;
+    width: 50%;
+    color: white;
+    background-color: #57a7dc;
+    
+}
+
+.contact-form button:hover {
+    background-color: #5791dc;
+    color: white
+}
+
+footer span {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 15%;
+    
+}
